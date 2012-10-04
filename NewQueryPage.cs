@@ -34,8 +34,10 @@ namespace MySQL_Browser
             this.txtSQL.Location = new System.Drawing.Point(3, 3);
             this.txtSQL.Multiline = true;
             this.txtSQL.Name = "txtSQL";
-            this.txtSQL.Size = new System.Drawing.Size(771, 126);
+            //this.txtSQL.Size = new System.Drawing.Size(771, 126);
+            this.txtSQL.Dock = DockStyle.Fill;
             this.txtSQL.TabIndex = 3;
+            txtSQL.ScrollBars = ScrollBars.Vertical;
             // 
             // tabPage1
             // 
